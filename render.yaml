@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: hogwarts-hourglass-api
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: JWT_SECRET
+        generateValue: true
+      - key: PORT
+        value: "4000"

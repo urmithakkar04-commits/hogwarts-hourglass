@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Hogwarts Hourglass</string>
+    <string name="title_activity_main">Hogwarts Hourglass</string>
+    <string name="package_name">com.hogwartshourglass.app</string>
+    <string name="custom_url_scheme">com.hogwartshourglass.app</string>
+</resources>

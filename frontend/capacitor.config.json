@@ -1,0 +1,19 @@
+{
+  "appId": "com.hogwartshourglass.app",
+  "appName": "Hogwarts Hourglass",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1200,
+      "backgroundColor": "#050a12",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#050a12"
+    }
+  }
+}
